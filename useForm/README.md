@@ -9,7 +9,7 @@ Ejemplo de uso:
         email: ''
     };
 
-    const { formValues, handleInputChange, reset } = useForm( initialForm );
+    const [ formValues, handleInputChange, reset ] = useForm( initialForm );
 ```
 
 `useForm()` // Recibe un valor por defecto (`object`) para el formulario.
